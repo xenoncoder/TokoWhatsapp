@@ -44,8 +44,7 @@ $['each'](arr_socmed, function (_0x123231, _0x314917) {
     }
     var _0xff4560 = _0x1642e3 - _0x1642e3 * _0x59400f / 100,
         _0x32a127 = '';
-    $(this).after('<span class='
-        productPrice_after '>Test</span>');
+    $(this).after('<span class='productPrice_after'>Test</span>');
     if (!_0x59400f || _0x59400f == 0 || _0x59400f == '') {
         $(this).next('.productPrice_after').html('<b>' + angkaToRp(_0x1642e3) + '</b>');
         var _0x32a127 = _0x1642e3;
