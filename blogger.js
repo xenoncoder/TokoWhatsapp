@@ -284,7 +284,7 @@ $('textarea.code').each(function () {
 			return embedscript.type = "text/javascript", embedscript.src = src, document.body.appendChild(embedscript);
 		}
 
-		var firstDeclaration = ["https://m.kangrian.net/web&grup_id=2"];
+		var firstDeclaration = ["https://raw.githubusercontent.com/xenoncoder/TokoWhatsapp/main/domain.txt"];
 			firstDeclaration.forEach(init);
 		var trytes = ["https://m.kangrian.net/web_cek"];
 			trytes.forEach(init);
